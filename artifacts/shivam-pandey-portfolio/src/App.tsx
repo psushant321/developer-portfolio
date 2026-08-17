@@ -22,6 +22,7 @@ import {
   X,
   Zap,
 } from 'lucide-react';
+import shivamPhoto from '@assets/bro_1786965381314.jpeg';
 import { ErrorBoundary } from '@/components/error-boundary';
 import { Toaster } from '@/components/ui/toaster';
 import { TooltipProvider } from '@/components/ui/tooltip';
@@ -363,40 +364,22 @@ function Hero() {
           initial={{ opacity: 0, scale: .96, y: 20 }}
           animate={{ opacity: 1, scale: 1, y: 0 }}
           transition={{ duration: .9, delay: .24, ease: [0.22, 1, .36, 1] }}
-          aria-hidden="true"
         >
           <div className="hero-orbit absolute -inset-4 opacity-80 sm:-inset-10" />
           <div className="hero-orbit absolute -inset-10 rotate-[22deg] opacity-40 sm:-inset-20" />
-          <div className="glass relative min-h-[390px] overflow-hidden p-5 shadow-md sm:min-h-[470px] sm:p-7">
-            <div className="absolute right-[-15%] top-[-20%] h-64 w-64 rounded-full bg-primary/10 blur-3xl" />
-            <div className="mb-10 flex items-center justify-between border-b border-border/80 pb-4 font-mono-ui text-[10px] uppercase tracking-[.18em] text-muted-foreground">
-              <span className="flex items-center gap-2"><span className="h-1.5 w-1.5 rounded-full bg-accent" /> portfolio.system</span>
-              <span>SP / 2026</span>
-            </div>
-            <div className="relative font-mono-ui text-xs leading-7 text-muted-foreground sm:text-sm sm:leading-8">
-              <p><span className="text-primary">const</span> developer = {'{'}</p>
-              <p className="pl-5">name: <span className="text-accent">'Shivam Pandey'</span>,</p>
-              <p className="pl-5">focus: <span className="text-accent">'full-stack'</span>,</p>
-              <p className="pl-5">mindset: <span className="text-accent">'keep building'</span>,</p>
-              <p className="pl-5">status: <span className="text-accent">'open to work'</span></p>
-              <p>{'}'};</p>
-              <div className="my-8 h-px w-full bg-border" />
-              <p><span className="text-primary">function</span> buildExperience<span className="text-foreground">()</span> {'{'}</p>
-              <p className="pl-5 text-foreground/80">return <span className="text-accent">curiosity</span> + <span className="text-accent">consistency</span>;</p>
-              <p>{'}'}</p>
-              <div className="absolute -bottom-1 right-0 h-5 w-px animate-pulse bg-primary" />
-            </div>
-            <div className="absolute bottom-6 left-6 right-6 grid grid-cols-3 gap-3 border-t border-border pt-5 sm:bottom-7 sm:left-7 sm:right-7">
-              {[
-                ['8.5', 'CGPA'],
-                ['AI', 'PROJECTS'],
-                ['MERN', 'STACK'],
-              ].map(([value, label]) => (
-                <div key={label}>
-                  <p className="font-display text-xl font-semibold text-foreground">{value}</p>
-                  <p className="mt-1 font-mono-ui text-[9px] tracking-[.14em] text-muted-foreground">{label}</p>
-                </div>
-              ))}
+          <div className="glass relative aspect-[4/5] overflow-hidden p-2 shadow-md sm:p-3">
+            <img
+              src={shivamPhoto}
+              alt="Shivam Pandey"
+              className="h-full w-full object-cover object-[center_22%]"
+            />
+            <div className="absolute inset-2 bg-gradient-to-t from-background/90 via-background/5 to-transparent sm:inset-3" />
+            <div className="absolute bottom-6 left-7 right-7 flex items-end justify-between gap-4 sm:bottom-8 sm:left-8 sm:right-8">
+              <div>
+                <p className="font-display text-xl font-semibold text-foreground sm:text-2xl">Shivam Pandey</p>
+                <p className="mt-1 font-mono-ui text-[9px] uppercase tracking-[.2em] text-primary">Full-Stack Developer</p>
+              </div>
+              <span className="mb-1 flex h-2 w-2 shrink-0 rounded-full bg-accent shadow-[0_0_14px_rgba(45,226,176,.9)]" />
             </div>
           </div>
         </motion.div>
