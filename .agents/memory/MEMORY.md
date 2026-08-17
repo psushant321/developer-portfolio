@@ -1,0 +1,1 @@
+- [Netlify static builds](netlify-static-build.md) — Vite artifacts need PORT and BASE_PATH supplied during Netlify builds even when served as static files.
