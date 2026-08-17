@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "Shivam Pandey Portfolio"
+description = "A premium responsive personal developer portfolio for Shivam Pandey, featuring his education, skills, experience, projects, certifications, achievements, languages, and contact information for recruiters and engineering opportunities."
+version = "1.0.0"
+id = "artifacts/shivam-pandey-portfolio"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 19620
+
+[services.development]
+run = "pnpm --filter @workspace/shivam-pandey-portfolio run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/shivam-pandey-portfolio", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/shivam-pandey-portfolio/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "19620"
+BASE_PATH = "/"

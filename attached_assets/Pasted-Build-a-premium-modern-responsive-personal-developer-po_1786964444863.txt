@@ -1,0 +1,560 @@
+Build a **premium, modern, responsive personal developer portfolio website for SHIVAM PANDEY**, a B.Tech student and aspiring full-stack developer.
+
+Use the attached resume as the **primary source of truth** for all personal information, education, experience, projects, certifications, achievements, skills, contact information, and languages.
+
+Do NOT invent additional companies, projects, experience, achievements, technologies, statistics, or credentials that are not present in the resume.
+
+The website should look like a portfolio designed for a **software developer applying for internships, placements, and entry-level software engineering roles**.
+
+---
+
+# TECH STACK
+
+Use:
+
+* React.js
+* Vite
+* Tailwind CSS
+* JavaScript
+* Lucide React or another clean icon library
+* Framer Motion for animations where appropriate
+
+Keep the code clean, modular, responsive, and production-ready.
+
+Do not use unnecessary backend functionality.
+
+---
+
+# DESIGN DIRECTION
+
+Create a **high-end developer portfolio** with a professional dark/modern aesthetic.
+
+Design inspiration:
+
+* Premium SaaS websites
+* Modern developer portfolios
+* Vercel-style simplicity
+* Clean glassmorphism
+* Subtle gradients
+* Smooth animations
+* Excellent typography
+* Strong visual hierarchy
+
+Use a dark background such as:
+
+* Deep navy / near-black background
+* White primary text
+* Muted gray secondary text
+* Blue accent color matching the resume
+
+Use subtle blue gradient effects and glowing elements, but avoid excessive neon effects.
+
+The portfolio should feel:
+
+* Professional
+* Modern
+* Minimal
+* Technical
+* Recruiter-friendly
+* Fast
+* Premium
+
+---
+
+# NAVIGATION
+
+Create a sticky responsive navbar.
+
+Left side:
+
+SHIVAM PANDEY
+
+Right side:
+
+* Home
+* About
+* Skills
+* Experience
+* Projects
+* Certifications
+* Achievements
+* Contact
+
+On mobile, convert the navigation into a hamburger menu.
+
+Navbar should have a subtle glass/blur effect when scrolling.
+
+---
+
+# HERO SECTION
+
+Create a visually impressive hero section.
+
+Display:
+
+SHIVAM PANDEY
+
+Main headline:
+
+"Full-Stack Developer"
+
+Supporting text:
+
+"Motivated and detail-oriented B.Tech student with a strong foundation in full-stack development and problem solving."
+
+Add a slightly longer description:
+
+"Eager to apply my technical skills, learn new technologies, and contribute to impactful projects in a dynamic and growth-oriented organization."
+
+Add two CTA buttons:
+
+1. "View My Projects"
+2. "Contact Me"
+
+The first button scrolls to Projects.
+
+The second button scrolls to Contact.
+
+Add subtle animated background effects such as:
+
+* Floating gradient blobs
+* Grid pattern
+* Small particles
+* Soft blue glow
+
+Do NOT make the background distracting.
+
+Add a small status badge:
+
+"Open to Opportunities"
+
+Do not claim that he is currently employed or looking for a specific company unless supported by the resume.
+
+---
+
+# ABOUT SECTION
+
+Create an About section introducing Shivam.
+
+Use the information from the resume.
+
+Mention that he is a B.Tech student with an 8.5 CGPA and has experience/projects involving full-stack development, React, Node.js, MongoDB, AI APIs, and modern frontend technologies.
+
+Keep the wording professional and concise.
+
+Create 3 or 4 small highlight cards:
+
+* 8.5 CGPA
+* Full-Stack Development
+* AI-Powered Projects
+* Modern Web Technologies
+
+Do not invent years of experience.
+
+---
+
+# EDUCATION SECTION
+
+Create a clean timeline/card layout.
+
+Use EXACT information from the resume:
+
+### United College of Engineering and Research
+
+Bachelor of Technology
+2022 – Present
+8.5 CGPA
+
+### Shiv Inter College
+
+Class XII | CBSE
+2021
+60%
+
+### ST Thomas School
+
+Class X | CBSE
+2018
+70%
+
+Use timeline animations when the cards enter the viewport.
+
+---
+
+# TECHNICAL SKILLS
+
+Create a visually attractive skills section.
+
+Organize the skills into categories exactly based on the resume:
+
+### Languages
+
+* C++
+* JavaScript
+
+### Frontend
+
+* HTML
+* CSS
+* React.js
+* Tailwind CSS
+
+### Backend
+
+* Node.js
+* Express.js
+
+### Database
+
+* MongoDB
+
+### Tools
+
+* Git
+* GitHub
+* Mapbox
+
+### AI / APIs
+
+* OpenAI API
+* NLP
+
+Use modern skill cards with icons.
+
+Add subtle hover animations.
+
+Do NOT add technologies such as Python, Java, Next.js, PostgreSQL, Docker, AWS, etc. unless they are explicitly present in the provided resume.
+
+---
+
+# EXPERIENCE SECTION
+
+Create an Experience section.
+
+Company:
+
+GENTRAX
+
+Role:
+
+Retail Monitoring Frontend
+
+Display the following responsibilities from the resume:
+
+* Developed a responsive retail monitoring interface with a modern dashboard-focused user experience.
+* Implemented real-time vehicle tracking using Mapbox integration for live location visualization.
+* Integrated route management functionality to display optimized routes between locations.
+* Built an analytics dashboard for KPI monitoring and statistical insights.
+* Implemented secure authentication and responsive UI using Tailwind CSS.
+
+Present this as a professional experience timeline/card.
+
+Do not invent internship dates.
+
+---
+
+# PROJECTS SECTION
+
+Create a premium Projects section with large project cards.
+
+Project 1:
+
+## AI Resume Generator
+
+Description:
+
+"Designed and developed an AI-powered resume generator capable of analyzing job descriptions and generating ATS-optimized resume content using NLP and automation techniques."
+
+Technologies:
+
+* React.js
+* Tailwind CSS
+* OpenAI API
+* NLP
+* Vercel
+
+Features to mention:
+
+* Job description analysis
+* ATS-optimized resume generation
+* AI-powered content generation
+* Responsive interface
+
+Project 2:
+
+## Employee Management System
+
+Description:
+
+"Developed a full-stack employee management application using the MERN stack."
+
+Technologies:
+
+* MongoDB
+* Express.js
+* React.js
+* Node.js
+
+Features:
+
+* Secure authentication
+* CRUD operations
+* Employee data management
+* Administrator interface
+
+Use attractive project cards.
+
+Each card should have:
+
+* Project title
+* Short description
+* Technology badges
+* Feature list
+* "View Project" button
+
+If actual project URLs are not provided in the resume, do NOT invent URLs.
+
+Instead, either hide the live/demo button or make it a disabled/placeholder button clearly marked "Coming Soon".
+
+---
+
+# CERTIFICATIONS SECTION
+
+Create a clean certification section.
+
+Use EXACT certifications from the resume:
+
+1. Web Development, Android Development, Ethical Hacking and Networking — Netcamp
+
+2. C++ Certification — United College of Engineering and Research, Prayagraj
+
+3. Internship Certification — Muskurahat Foundation
+
+Use certificate cards with icons.
+
+---
+
+# ACHIEVEMENTS SECTION
+
+Create an achievements section with visually attractive cards.
+
+Use:
+
+* Won 1st Prize in the Zonal-Level Athletics Competition in Kabaddi.
+* Won 1st Prize in the District-Level Mathematics Olympiad Competition.
+
+Use trophy/achievement icons.
+
+---
+
+# LANGUAGES SECTION
+
+Create a compact section:
+
+Hindi — Native
+
+English — Proficient
+
+Use language icons and progress-style visual indicators, but do NOT convert the proficiency levels into invented percentages.
+
+---
+
+# CONTACT SECTION
+
+Create a strong final CTA:
+
+"Let's Build Something Great"
+
+Subtext:
+
+"Have an opportunity or project in mind? I'd love to connect."
+
+Display:
+
+Phone:
+8960231157
+
+Email:
+[pandeyshivam0048@gmail.com](mailto:pandeyshivam0048@gmail.com)
+
+LinkedIn:
+linkedin.com/in/shivam-pandey-1b8129335
+
+Make email and LinkedIn clickable.
+
+Use icons for:
+
+* Phone
+* Email
+* LinkedIn
+
+Do not invent GitHub, Twitter/X, Instagram, or other social links.
+
+---
+
+# FOOTER
+
+Create a minimal footer:
+
+© 2026 Shivam Pandey. All rights reserved.
+
+Add a "Back to Top" button.
+
+---
+
+# ANIMATIONS
+
+Use Framer Motion for subtle animations.
+
+Include:
+
+* Fade-in sections
+* Slide-up cards
+* Staggered project animations
+* Hover effects
+* Smooth scrolling
+* Navbar transition on scroll
+* Button hover animations
+* Subtle hero background animation
+
+Animations must be smooth and professional.
+
+Avoid excessive animation that hurts readability.
+
+---
+
+# RESPONSIVENESS
+
+The website must work perfectly on:
+
+* Desktop
+* Laptop
+* Tablet
+* Mobile
+
+Pay special attention to:
+
+* Navigation
+* Project cards
+* Skills grid
+* Education timeline
+* Contact section
+* Typography
+
+No horizontal scrolling should occur on mobile.
+
+---
+
+# UI DETAILS
+
+Use:
+
+* Rounded cards
+* Subtle borders
+* Soft shadows
+* Glassmorphism where appropriate
+* Blue gradient accents
+* Consistent spacing
+* Professional typography
+* Lucide icons
+* Accessible contrast
+
+Add subtle section separators.
+
+Use a consistent blue accent inspired by the resume.
+
+---
+
+# IMPORTANT CONTENT RULE
+
+The attached resume is the source of truth.
+
+Use the following information exactly:
+
+Name:
+SHIVAM PANDEY
+
+Phone:
+8960231157
+
+Email:
+[pandeyshivam0048@gmail.com](mailto:pandeyshivam0048@gmail.com)
+
+LinkedIn:
+linkedin.com/in/shivam-pandey-1b8129335
+
+Education:
+United College of Engineering and Research — B.Tech — 2022-Present — 8.5 CGPA
+
+Shiv Inter College — Class XII, CBSE — 2021 — 60%
+
+ST Thomas School — Class X, CBSE — 2018 — 70%
+
+Skills:
+C++, JavaScript, HTML, CSS, React.js, Tailwind CSS, Node.js, Express.js, MongoDB, Git, GitHub, Mapbox, OpenAI API, NLP
+
+Experience:
+GENTRAX — Retail Monitoring Frontend
+
+Projects:
+AI Resume Generator
+Employee Management System
+
+Certifications:
+Netcamp
+United College of Engineering and Research
+Muskurahat Foundation
+
+Achievements:
+Zonal-Level Athletics Competition in Kabaddi — 1st Prize
+District-Level Mathematics Olympiad Competition — 1st Prize
+
+Languages:
+Hindi — Native
+English — Proficient
+
+---
+
+# CODE QUALITY
+
+Create a proper React project structure.
+
+Use reusable components such as:
+
+* Navbar
+* Hero
+* About
+* Education
+* Skills
+* Experience
+* Projects
+* Certifications
+* Achievements
+* Languages
+* Contact
+* Footer
+
+Keep data separate where practical so content can easily be edited later.
+
+Use semantic HTML.
+
+Ensure all buttons and navigation links work.
+
+Implement smooth scrolling.
+
+Ensure the website builds successfully without errors.
+
+Before finishing, check:
+
+* No broken imports
+* No console errors
+* No missing components
+* No broken links
+* Responsive layout
+* Good mobile experience
+* Fast loading
+* Clean code
+
+The final result should look like a **premium software developer portfolio suitable for showing recruiters and companies**, not like a basic student template.
+
+Build the complete working website now.
