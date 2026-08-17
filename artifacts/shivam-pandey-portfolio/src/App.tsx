@@ -674,7 +674,7 @@ function Contact() {
             <a href="mailto:pandeyshivam0048@gmail.com" className="group flex items-center gap-3 font-mono-ui text-sm text-foreground transition-colors hover:text-primary" data-testid="link-email">
               <Mail size={16} className="text-primary" /> pandeyshivam0048@gmail.com <ArrowUpRight size={14} className="transition-transform group-hover:translate-x-1 group-hover:-translate-y-1" />
             </a>
-            <a href="https://linkedin.com/in/shivam-pandey-1b812933" target="_blank" rel="noreferrer" className="group flex items-center gap-3 font-mono-ui text-sm text-foreground transition-colors hover:text-primary" data-testid="link-linkedin">
+            <a href="https://www.linkedin.com/in/shivam-pandey-1b8129335" target="_blank" rel="noreferrer" className="group flex items-center gap-3 font-mono-ui text-sm text-foreground transition-colors hover:text-primary" data-testid="link-linkedin">
               <Linkedin size={16} className="text-primary" /> LinkedIn <ArrowUpRight size={14} className="transition-transform group-hover:translate-x-1 group-hover:-translate-y-1" />
             </a>
           </div>
