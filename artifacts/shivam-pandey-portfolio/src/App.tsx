@@ -57,7 +57,7 @@ const education = [
     school: 'United College of Engineering and Research',
     program: 'Bachelor of Technology',
     year: '2022 – Present',
-    result: '8.5 CGPA',
+    result: '7.5 CGPA',
     current: true,
   },
   {
@@ -411,7 +411,7 @@ function About() {
               I am a B.Tech student with a strong interest in full-stack development, AI-powered projects, and modern web technologies. My approach is hands-on: understand the problem, keep the system legible, and ship an interface that earns its place.
             </p>
             <div className="mt-8 flex items-center gap-4 border-t border-border/70 pt-6">
-              <span className="font-display text-5xl font-semibold tracking-[-.08em] text-primary" data-testid="text-cgpa">8.5</span>
+              <span className="font-display text-5xl font-semibold tracking-[-.08em] text-primary" data-testid="text-cgpa">7.5</span>
               <span className="max-w-[120px] font-mono-ui text-[10px] uppercase leading-5 tracking-[.15em] text-muted-foreground">Current CGPA / United College</span>
             </div>
           </Reveal>
